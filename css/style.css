@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  font-size: 10px;
+}
+body{
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: rebeccapurple; */
+}
+form{
+  width: 100%;
+  /* background-color: gray; */
+  padding: 20px;
+  border-radius: 8px;
+}
+input[type="number"]{
+  width: 70%;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  /* background-color: lightgray; */
+  font-size: 24px;
+  color: red;
+  padding-left: 10px;
+  display: none;
+}
+input[type="number"]::placeholder{
+  display: none;
+}
+button{
+  display: block;
+  width: 50%;
+  font-size: 18px;
+  height: 85px;
+  background-color: lightslategray;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+h2{
+  margin-top: 10px;
+  height: auto;
+  font-size: 30px;
+}
+h3, h4{
+  margin-top: 10px;
+  height: auto;
+  font-size: 25px;
+}
