@@ -2,21 +2,9 @@
 
 ### Goal: Display data returned from an api
 
-### How to submit your code for review:
+I completed the challenge: 4
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I feel good about my code: 2
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+Will have to add more. Was following a tuorial that used fetch text instead of JSON. Changed to JSON to add more and came about alot of issues. WIll revisit and redo.
 ```
