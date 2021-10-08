@@ -4,8 +4,10 @@
 
 I completed the challenge: 4
 
-I feel good about my code: 2
+I feel good about my code: 4
 
-Will have to add more. Was following a tuorial that used fetch text instead of JSON. Changed to JSON to add more and came about alot of issues. WIll revisit and redo.
+Updated API, fixed input search issue. Now the specific search allows for the specific user input number.
 
-<img src="https://github.com/daphnyemily/simple-api-bootcamp/blob/answer/Screen%20Shot%202021-10-02%20at%206.22.24%20PM.png">
+<a href="https://numberfacts-api-daphnyemily.netlify.app/">LIVE DEMO</a>
+
+<img src="https://github.com/daphnyemily/simple-api-bootcamp/blob/answer/numbersAPI.png">
