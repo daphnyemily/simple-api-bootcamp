@@ -1,19 +1,13 @@
 //Display data returned from an api
 
-const form = document.querySelector('form')
-// const factDiv = document.querySelector('.numberFact')
+document.querySelector('button').addEventListener('click', searchButton)
 
-form.addEventListener('submit', (i) =>{
-    i.preventDefault()
-    const number = i.target.querySelector('input[type="number"]').value
-    console.log(number)
+function searchButton(){ 
+    const number = document.querySelector('input').value
 
-    // const loadText = 'Wait one sec ...'
-    // factDiv.innerHTML = loadText
+    const url =`http://numbersapi.com/${number}?json`
 
-    const url ='http://numbersapi.com/random?json'
-
-    fetch(url+number)
+    fetch(url)
         .then(res => res.json())
         .then(data => {
             console.log(data)
@@ -21,8 +15,9 @@ form.addEventListener('submit', (i) =>{
             document.querySelector('h2').innerText = data.number
             document.querySelector('h3').innerText = data.text
             document.querySelector('h4').innerText = data.type
-
         })
     
-})
+}
 
+
+//http://numbersapi.com/random/?json

@@ -32,55 +32,40 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 section{
   width: 100%;
 }
-.container{
-  width: 90%;
-  margin: 0 auto;
-  /* background-color: rebeccapurple; */
-}
-form{
-  width: 100%;
-  /* background-color: gray; */
-  padding: 20px;
-  border-radius: 8px;
-}
-input[type="number"]{
-  width: 70%;
-  height: 40px;
+input{
+  width: 50%;
+  height: 56px;
   border-radius: 4px;
   outline: none;
   border: none;
-  /* background-color: lightgray; */
   font-size: 24px;
-  color: red;
-  padding-left: 10px;
-  display: none;
-}
-input[type="number"]::placeholder{
-  display: none;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
 }
 button{
-  display: block;
   width: 50%;
   font-size: 18px;
-  height: 85px;
+  height: 44px;
   background-color: lightslategray;
   border: none;
-  outline: none;
   border-radius: 10px;
-  margin-left: 10px;
   color: white;
 }
 h2{
   margin-top: 10px;
   height: auto;
-  font-size: 30px;
+  font-size: 50px;
 }
 h3, h4{
   margin-top: 10px;
   height: auto;
   font-size: 25px;
+  display: block;
+  justify-items: center;
 }
